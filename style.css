@@ -2,7 +2,7 @@
 
 body{
     margin: 0px;
-    background-color: rgb(53, 48, 48);
+    background-color: rgba(5, 17, 48, 0.945);
 }
 
 /*Header-1*/
@@ -45,7 +45,7 @@ body{
     border-radius: 20px;
     margin-top: 30px;
     width: 950px;
-    background-color: rgba(14, 20, 97, 0.274);
+    background-color: rgba(20, 28, 143, 0.274);
     padding: 20px;
     margin-bottom: 300px;
 }
@@ -60,7 +60,7 @@ body{
     border-radius: 20px;
     margin-top: 20px;
     width: 950px;
-    background-color: rgba(128, 128, 128, 0.274);
+    background-color: rgb(25, 38, 97);
 }
 
 .container-2 li{
@@ -173,4 +173,8 @@ td{
 
 input{
     width: 1500px;
+}
+
+video{
+    width: 700px;
 }
