@@ -2,11 +2,13 @@
 
 body{
     margin: 0px;
+    background-color: rgb(49, 47, 47);
 }
 
 /*Header-1*/
 
-.container-1{
+.header-1{
+    border: solid orange;
     flex-wrap: wrap;
     background-color: rgb(48, 48, 112);
 
@@ -20,11 +22,14 @@ body{
     background-color: gray;
     border-radius: 20px;
     border: solid;
+    list-style: none;
+    text-decoration: none;
 }
 
 /*Header-2*/
 
-.container-2{
+.header-2{
+    border: solid orange;
     padding: 20px;
     margin-top: 100px;
     width: auto;
@@ -34,24 +39,37 @@ body{
    
 }
 
+/*Index*/
+
+.container{
+    margin-top: 100px;
+    width: 600px;
+    background-color: rgba(128, 128, 128, 0.274);
+    padding: 20px;
+}
 /*Aplicante*/
 
 .flex{
     display: flex;
 }
+
 /*palabras*/
 
-li{
-    list-style: none;
-    text-decoration: none;
+h1{
+    color: orange;
 }
 
 a{
     text-decoration: none;
     color: black;
 }
+
+
 /*Posicionaminto*/
 
+.center{
+    justify-content: center;
+}
 .centro{
     justify-content: center;
     text-align: center;
