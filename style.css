@@ -80,9 +80,9 @@ body{
 .container-3{
     border-radius: 20px;
     margin-top: 20px;
-    height: 600px;
+    height: 700px;
     width: auto;
-    background-color: rgba(128, 128, 128, 0.274);
+    background-color: rgba(1, 30, 109, 0.274);
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -143,8 +143,6 @@ img{
     padding-left: 70px;
     padding-right: 70px;
     align-items: center;
-    
-
 }
 
 td{
