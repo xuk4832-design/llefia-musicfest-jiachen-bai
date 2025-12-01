@@ -74,6 +74,21 @@ body{
     color: orange;
     text-decoration:solid
 }
+
+/*Horario*/
+
+.container-3{
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 600px;
+    width: auto;
+    background-color: rgba(128, 128, 128, 0.274);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+
 /*Aplicante*/
 
 .flex{
@@ -81,6 +96,7 @@ body{
 }
 
 /*palabras*/
+
 
 h1{
     color: orange;
@@ -99,9 +115,11 @@ h2{
     color: white;
 }
 
+
 /*Posicionaminto*/
 
 .center{
+    align-items: center;
     justify-content: center;
 }
 .centro{
@@ -109,8 +127,31 @@ h2{
     text-align: center;
 }
 
+.align{
+    justify-content: center;
+}
+
 /*img*/
 
 img{
     width: 900px;
+}
+
+ th{
+    border: solid;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+    
+
+}
+
+td{
+    border: solid;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+    text-align: center;
 }
