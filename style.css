@@ -42,10 +42,29 @@ body{
 /*Index*/
 
 .container{
-    margin-top: 100px;
-    width: 600px;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 950px;
     background-color: rgba(128, 128, 128, 0.274);
     padding: 20px;
+    margin-bottom: 300px;
+}
+
+.container li{
+    color: white;
+}
+
+/*Cartel*/
+
+.container-2{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 950px;
+    background-color: rgba(128, 128, 128, 0.274);
+}
+
+.padding{
+    padding-left: 20px;
 }
 /*Aplicante*/
 
@@ -64,6 +83,13 @@ a{
     color: black;
 }
 
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
 
 /*Posicionaminto*/
 
