@@ -1,10 +1,37 @@
+/*Body*/
+
+body{
+    margin: 0px;
+}
+
 /*Header-1*/
 
-
 .container-1{
+    flex-wrap: wrap;
     background-color: rgb(48, 48, 112);
-    width: auto;
+
+}
+
+.menu{
+    gap: 20px;
+}
+.borders li{
+    padding: 10px;
+    background-color: gray;
+    border-radius: 20px;
     border: solid;
+}
+
+/*Header-2*/
+
+.container-2{
+    padding: 20px;
+    margin-top: 100px;
+    width: auto;
+    align-items: end;
+    flex-wrap: wrap;
+    background-color: rgb(48, 48, 112);
+   
 }
 
 /*Aplicante*/
@@ -12,8 +39,20 @@
 .flex{
     display: flex;
 }
-
 /*palabras*/
 
+li{
+    list-style: none;
+    text-decoration: none;
+}
 
-/*Posicionaminte*/
+a{
+    text-decoration: none;
+    color: black;
+}
+/*Posicionaminto*/
+
+.centro{
+    justify-content: center;
+    text-align: center;
+}
