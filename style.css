@@ -2,7 +2,7 @@
 
 body{
     margin: 0px;
-    background-color: rgb(49, 47, 47);
+    background-color: rgb(53, 48, 48);
 }
 
 /*Header-1*/
@@ -10,7 +10,7 @@ body{
 .header-1{
     border: solid orange;
     flex-wrap: wrap;
-    background-color: rgb(48, 48, 112);
+    background-color: rgb(46, 46, 63);
 
 }
 
@@ -24,6 +24,7 @@ body{
     border: solid;
     list-style: none;
     text-decoration: none;
+    padding: 10px;
 }
 
 /*Header-2*/
@@ -35,7 +36,7 @@ body{
     width: auto;
     align-items: end;
     flex-wrap: wrap;
-    background-color: rgb(48, 48, 112);
+    background-color: rgb(0, 0, 48);
    
 }
 
@@ -80,13 +81,12 @@ body{
 .container-3{
     border-radius: 20px;
     margin-top: 20px;
-    height: 700px;
+    height: 750px;
     width: auto;
     background-color: rgba(1, 30, 109, 0.274);
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
-
 
 
 /*Aplicante*/
@@ -96,6 +96,7 @@ body{
 }
 
 /*palabras*/
+
 
 
 h1{
@@ -113,6 +114,7 @@ p{
 
 h2{
     color: white;
+    font-size: 30px;
 }
 
 
@@ -152,4 +154,8 @@ td{
     padding-right: 70px;
     align-items: center;
     text-align: center;
+}
+
+.colores{
+    background-color: rgb(0, 0, 48);
 }
